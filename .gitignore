@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+node_modules/
+bower_components/
+.DS_Store
+Thumbs.db
+.tmp/
+.git/
+coverage/
+vendor/
+logs/

@@ -1,0 +1,42 @@
+[user]
+  name = Jabran Rafique
+  email = {{EMAIL_ADDRESS}}
+
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+
+[alias]
+  stats = shortlog -sn
+	update = !git pull && git submodule update --init --recursive
+
+[push]
+  default = current
+
+[color "diff"]
+  meta = yellow
+  old = red
+  new = green
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+
+[apply]
+  whitespace = nowarn
+
+[web]
+  browser = open
+
+[help]
+  autocorrect = -1
+
+[status]
+	submoduleSummary = true

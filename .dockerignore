@@ -1,0 +1,12 @@
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.git/
+logs/
+.idea/
+*.md
+*.yml
+nodemon.json
+dev-docker-entrypoint.sh
+config/ecosystem.dev.config.yml

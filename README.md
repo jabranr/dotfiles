@@ -1,2 +1,3 @@
 # dotfiles
-Environment settings / configurations
+
+A collection of configurations to setup my environment to get it ready quickly.
