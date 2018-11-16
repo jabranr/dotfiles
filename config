@@ -1,0 +1,17 @@
+# Save following to ~/.ssh/config
+Host {work}.bitbucket.com
+  HostName {work}.bitbucket.com
+  IdentityFile ~/.ssh/{work}
+
+Host bitbucket.org
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/personal
+
+Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/personal
+
+# Generate keys to their specific files
+ssh-keygen -t rsa -C "{email}" -f "{file_name}"
+
+# Add keys to respective hosts

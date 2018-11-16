@@ -15,6 +15,7 @@
 [alias]
   stats = shortlog -sn
 	update = !git pull && git submodule update --init --recursive
+  log1 = log --oneline
 
 [push]
   default = current
