@@ -1,6 +1,6 @@
 # Save following to ~/.ssh/config
-Host {work}.bitbucket.com
-  HostName {work}.bitbucket.com
+Host bitbucket.{work}.com
+  HostName bitbucket.{work}.com
   IdentityFile ~/.ssh/{work}
 
 Host bitbucket.org
